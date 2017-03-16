@@ -89,7 +89,7 @@ h5 {
 /* About me */
 
 #me {
-  background-image: linear-gradient(rgba(0,0,0,0.8) 10%, rgba(0,0,0,0.2) 80%),url("../images/solve.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.6) 30%, rgba(0,0,0,0.2) 80%),url("../images/solve.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -109,9 +109,14 @@ h5 {
   padding: 0 2em;
   text-shadow: 1px 1px 2px #333;
   color: #fff;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
+.about-me p {
+  text-shadow: 1px 1px 2px #333;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
 /* Projects */
 .projects {
   background-color: #ffffff;
