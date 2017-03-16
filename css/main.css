@@ -89,13 +89,12 @@ h5 {
 /* About me */
 
 #me {
-  background-image: url("../images/solve.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.8) 10%, rgba(0,0,0,0.2) 80%),url("../images/solve.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 2.5em 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #000000;
+  padding: 5em 0;
+  color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
   font-weight: 500;
@@ -109,8 +108,8 @@ h5 {
   letter-spacing: 0.2em;
   padding: 0 2em;
   text-shadow: 1px 1px 2px #333;
-
-
+  color: #fff;
+  margin-bottom: 2em;
 }
 
 /* Projects */
