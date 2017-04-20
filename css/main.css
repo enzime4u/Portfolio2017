@@ -208,13 +208,18 @@ footer {
   font-size: 1em;
 }
 
+.row {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
 @media (max-width: 500px) {
     .see-more {
       display: none;
     }
 
     .show-off {
-      text-shadow: 3px 2px 3px #181824;
+      display: none;
     }
 }
 
